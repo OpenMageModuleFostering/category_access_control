@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package>
+    <name>category_access_control</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Control access to products and categories using user groups.</summary>
+    <description>Features:
+
+* allow access to categories for selected user groups only
+* users see products and categories only if allowed
+* default category settings can be changed individually per category or
+  for the whole store
+* built-in groups for ALL (no access control applies), NONE (no access),
+  REGISTERED (any registered user)
+
+It's pretty easy to configure, but if you are looking for serious access control
+you need to use Magento Enterprise Edition.
+
+This extension is based on the excellent work by Vinnai Kung
+(http://www.magentocommerce.com/extension/reviews/module/635).
+We used his code to change the functionality and simplify the interface.
+
+We actively develop and support this extension please, report any bugs here.
+Our existing customers using our web-to-print and dynamic
+imaging extension (http://www.magentocommerce.com/extension/1586) can contact us
+via email with bugs reports and feature requests.</description>
+    <notes>First stable release</notes>
+    <authors><author><name>Anatoly A. Kazantsev</name><user>auto-converted</user><email>anatoly.kazantsev@gmail.com</email></author></authors>
+    <date>2010-05-31</date>
+    <time></time>
+    <contents><target name="mageetc"><dir name="modules"><file name="ZetaPrints_AccessControl.xml" hash="7d411860d7d6e80cc5338632cfeeea45"/></dir></target><target name="magecommunity"><dir name="ZetaPrints"><dir name="AccessControl"><dir name="Block"><dir name="Layer"><file name="View.php" hash="da589796071648339c4ea7b501f99672"/></dir><file name="Navigation.php" hash="e25f94948631e7be4bdd13f96103f700"/></dir><dir name="etc"><file name="config.xml" hash="4ede90a3d717c753d5507a9d7e68ead0"/><file name="system.xml" hash="9dbb6a67746e2b7df9893d25c37a5493"/></dir><dir name="Helper"><file name="Category.php" hash="aa7af26c81d9e780910643590795a161"/><file name="Data.php" hash="ce84fed3a994636b4da1901bb23a6078"/><file name="Product.php" hash="5027fea29ed4c4fd0f617e95a03ac565"/></dir><dir name="Model"><dir name="CatalogSearch"><file name="Layer.php" hash="0cc0ac24c597ca43d18ceb664d50a591"/></dir><dir name="Config"><dir name="Data"><file name="Customergroups.php" hash="881007133a9013529e9aa3f8ce4dbcf5"/></dir><dir name="Source"><dir name="Customergroups"><file name="Category.php" hash="1428e135ead287b96d56d2ea780ff04a"/></dir><file name="Customergroups.php" hash="852ecc4fa3ab363d9affa3b499d3d799"/></dir></dir><dir name="Entity"><dir name="Attribute"><dir name="Backend"><file name="Customergroups.php" hash="1720ded522774cb0346166f42cb4c36a"/></dir></dir></dir><dir name="Resource"><dir name="Sitemap"><dir name="Mysql4"><file name="Category.php" hash="55efaed59c656c54b3c32e54e06b12cf"/><file name="Product.php" hash="aa1ccffc4dc4cce9b702964240ed905a"/></dir></dir><file name="Setup.php" hash="88e898401ea3f16051b1f2dedd69137b"/></dir><file name="Observer.php" hash="44a23d6475682f305a632ddf514d9798"/></dir><dir name="sql"><dir name="accesscontrol_setup"><file name="mysql4-install-1.php" hash="1a0914a28173cb9617dc5f5c7d8ebdb9"/><file name="mysql4-upgrade-1-2.php" hash="833c4bbd173cede2e973720df187d101"/><file name="mysql4-upgrade-2-3.php" hash="0aab3967e72337b64c38c6c5500ce9a6"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
