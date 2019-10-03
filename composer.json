@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/category_access_control",
+    "name": "OpenMageModuleFostering\/category_access_control",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Control access to products and categories using user groups.",
     "authors": [
-    {
-        "name": "Anatoly A. Kazantsev",
-        "email": "anatoly.kazantsev@gmail.com"
-    }
-],
+        {
+            "name": "Anatoly A. Kazantsev",
+            "email": "anatoly.kazantsev@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
